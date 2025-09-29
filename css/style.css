@@ -43,7 +43,9 @@ body {
 }
 
 .form-group button {
-  padding: 10px 20px;
+  width: 80%;
+  padding: 16px 0;
+  font-size: 1.3em;
     background-color: #D31024;
     color: #fff;
     border: none;
