@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notas</title>
+  <link rel="stylesheet" href="css/notas.css">
+</head>
+<body>
+  <div class="header">
+    <img src="https://ww2.ufps.edu.co/public/archivos/elementos_corporativos/logo-horizontal.jpg" alt="">
+    
+    <div>
+        <label>Código</label>
+        <label id="codigo"></label>
+    </div>
+    <div>
+        <label>Nombre</label>
+        <label id="nombre"></label>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>Promedio</td>
+            </tr>
+            <tr>
+                <td id="promedioPonderado"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<table id="notasTabla">
+    <thead>
+        <tr>
+            <th>Asignatura</th>
+            <th>Créditos</th>
+            <th>P1</th>
+            <th>P2</th>
+            <th>P3</th>
+            <th>EF</th>
+            <th>Definitiva</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Las notas se llenarán aquí usando JavaScript -->
+    </tbody>
+</table>
+
+<button onclick="logout()">Cerrar Sesión</button>
+
+<script src="scripts/notas.js"></script>
+</body>
+</html>
