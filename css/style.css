@@ -19,9 +19,9 @@ body {
 }
 
 .container img {
-  width: 80%;
-  max-width: 80%;
-  margin-bottom: 20px;
+  width: 150%;
+  max-width: 100%;
+  margin-bottom: 30px;
 }
 
 .form-group {
