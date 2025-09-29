@@ -1,3 +1,12 @@
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+#logout-btn {
+  display: block;
+  margin-left: auto;
+  margin-top: 16px;
+  width: fit-content;
+}
 .header {
   color: black;
   padding: 20px;
@@ -21,7 +30,7 @@
 
 
 #notasTabla {
-  width: 100%;
+  width: 50%;
   border-collapse: collapse;
 }
 
